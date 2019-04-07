@@ -1,0 +1,118 @@
+body{
+    background-color: #83d0c9;
+    color: #000305;
+    font-size: 87.5%  /* Base font size 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height:1.5;
+    text-align: left;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.body{
+    width: 100%;
+    float: right;
+    background-color: #FFF;
+}
+
+#accordion{
+    width: 50%;
+    display: inline-block;
+    float: left;
+
+}
+
+.totalCases{
+     width: 50%;
+    float: left;
+    padding-left: 3%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #54b2a9;
+}
+
+a:hover, a:active{
+    background-color: #54b2a9;
+    color: #FFF
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.mainHeader nav{
+    background-color: #666;
+    height: 40px;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 40px;
+}
+
+.mainHeader nav a:hover, .mainHeader a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: #54b2a9;
+    text-shadow: none;
+}
+
+.mainContent{
+    line-height: 25px;
+    padding: 2% 3%;
+}
+
+.caseTitle a{
+    clear: both;
+    float:left;
+    color: black;
+    margin-top: 3%;
+}
+
+.contentOdd{
+    clear: both;
+    width: 50%;
+    float: left;
+}
+
+.contentEven{
+    width: 50%;
+    float: right;
+}
+
+.topContent{
+    clear: both;
+}
+
+.bottomContent img{
+    width:100%;
+}
+
+.mainFooter{
+    width: 100%;
+    float: left;
+    background-color: #666;
+}
+
+.mainFooter p {
+    text-align: center;
+    margin: 10px auto;
+    color: #FFF;
+}
